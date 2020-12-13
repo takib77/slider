@@ -5,3 +5,63 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.slider__container {
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.image--container {
+    background-image: linear-gradient(red, blue);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 700px;
+    width: 92%;
+}
+
+.image--div {
+    margin: auto;
+}
+
+.caption__div {
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+}
+
+.caption--text {
+    font-size: .8rem;
+    line-height: .8rem;
+    text-align: center;
+}
+
+.right--slider, .left--slider {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    opacity: .8;
+    height: 700px;
+    width: 4%;
+}
+
+.items, .right, .left {
+    color: cornsilk;
+}
+
+.points {
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+}
+
+.left, .right {
+    margin: auto;
+}
+
+.items {
+    margin: 0 auto;
+}
